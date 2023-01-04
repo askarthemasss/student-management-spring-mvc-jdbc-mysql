@@ -33,6 +33,7 @@ public class StudentAppConfig {
 	}
 	
 	// DatSource
+	@Bean
 	public DataSource dataSource() {
 		
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
