@@ -40,8 +40,8 @@ public class StudentAppConfig {
 		
 		// set the DB info
 		dataSource.setUsername("root");
-		dataSource.setPassword("askar");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/askar/useSSL-false");
+		dataSource.setPassword("zoho@123");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/student_management/useSSL=false");
 		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		
 		return dataSource;

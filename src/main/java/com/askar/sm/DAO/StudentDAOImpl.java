@@ -13,6 +13,7 @@ import com.askar.sm.rowmapper.StudentRowMapper;
 @Repository
 public class StudentDAOImpl implements StudentDAO {
 
+//	JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 	@Autowired
 	JdbcTemplate jdbcTemplate;
 	
